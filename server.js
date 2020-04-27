@@ -74,6 +74,5 @@ app.get('/pending', function(req, res){
     })
 })
 
-app.listen(3030);
-console.log("Hola mundo 8");
+app.listen(3030)
 module.exports = app;
