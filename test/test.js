@@ -9,8 +9,6 @@ let should = chai.should();
 chai.use(chaiHttp);
 //Our parent block
 describe('API', () => {
-  console.log(server);
-  console.log(chaiHttp);
   describe('/GET home', () => {
     it('it should GET any reply', (done) => {
       chai.request(server)
