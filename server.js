@@ -79,4 +79,5 @@ app.get('/pending', function(req, res){
 
 app.listen(process.env.PORT_FRONT);
 console.log("Server listening through port: "+process.env.PORT_FRONT);
+console.log("Server listening through port: "+process.env.PORT_FRONT);
 module.exports = app;
